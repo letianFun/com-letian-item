@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: eurka-server
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost-eurka
+    prefer-ip-address: true
+
+
+  server:
+    enable-self-preservation: false        # 测试环境关闭自我保护机制，保证不可用服务及时踢出。生产环境不建议关闭
+    eviction-interval-timer-in-ms: 5000    # 清理失效服务的间隔时间
+  client:
+    registerWithEureka: false    # 不注册自己为服务
+    fetchRegistry: false          # 不检索服务
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+
+

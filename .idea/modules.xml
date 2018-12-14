@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com-letian-item.iml" filepath="$PROJECT_DIR$/com-letian-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-letian-register/com-letian-register.iml" filepath="$PROJECT_DIR$/com-letian-register/com-letian-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-letian-service/com-letian-service.iml" filepath="$PROJECT_DIR$/com-letian-service/com-letian-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-letian-service/com-letian-service-api/com-letian-service-api.iml" filepath="$PROJECT_DIR$/com-letian-service/com-letian-service-api/com-letian-service-api.iml" />
+    </modules>
+  </component>
+</project>
