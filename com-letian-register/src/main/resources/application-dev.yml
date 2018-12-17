@@ -13,7 +13,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost-eurka
+    hostname: localhost
     prefer-ip-address: true #是否显示上面配置的hostname
 
   server:
