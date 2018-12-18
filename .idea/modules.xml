@@ -3,12 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com-letian-consume/com-letian-consume.iml" filepath="$PROJECT_DIR$/com-letian-consume/com-letian-consume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-letian-consume/com-letian-consume.iml" filepath="$PROJECT_DIR$/com-letian-consume/com-letian-consume.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-letian-item.iml" filepath="$PROJECT_DIR$/com-letian-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-letian-register/com-letian-register.iml" filepath="$PROJECT_DIR$/com-letian-register/com-letian-register.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-letian-service/com-letian-service.iml" filepath="$PROJECT_DIR$/com-letian-service/com-letian-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-letian-service/com-letian-service-api/com-letian-service-api.iml" filepath="$PROJECT_DIR$/com-letian-service/com-letian-service-api/com-letian-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-letian-service/com-letian-service-imp-01/com-letian-service-imp-01.iml" filepath="$PROJECT_DIR$/com-letian-service/com-letian-service-imp-01/com-letian-service-imp-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-letian-service/com-letian-service-imp-02/com-letian-service-imp-02.iml" filepath="$PROJECT_DIR$/com-letian-service/com-letian-service-imp-02/com-letian-service-imp-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-letian-service/com-letian-service-imp-02/service-imp-02.iml" filepath="$PROJECT_DIR$/com-letian-service/com-letian-service-imp-02/service-imp-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-letian-service/com-letian-service-imp-01/service-impl-01.iml" filepath="$PROJECT_DIR$/com-letian-service/com-letian-service-imp-01/service-impl-01.iml" />
     </modules>
   </component>
 </project>
