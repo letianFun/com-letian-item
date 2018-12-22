@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.*;
 public class UserController implements UserSOA {
 
     @Override
-    @PostMapping("/getUser")
-    public UserDTO getUser(String name) {
+    @RequestMapping("/getUser")
+    public String getUser(String name) {
         UserDTO userDTO = new UserDTO();
         userDTO.setName(name);
         userDTO.setAga(8081);
         userDTO.setMan(true);
-        return userDTO;
+        return userDTO.toString();
     }
 }

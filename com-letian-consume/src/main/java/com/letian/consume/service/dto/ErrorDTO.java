@@ -13,11 +13,7 @@ import org.springframework.stereotype.Component;
 public class ErrorDTO implements UserSOA {
 
     @Override
-    public UserDTO getUser(String name) {
-        UserDTO userDTO = new UserDTO();
-        userDTO.setName(name);
-        userDTO.setAga(-1);
-        userDTO.setMan(null);
-        return userDTO;
+    public String getUser(String name) {
+        return "熔断机制触发!!!";
     }
 }

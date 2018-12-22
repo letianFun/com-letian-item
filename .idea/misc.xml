@@ -10,6 +10,10 @@
         <option value="$PROJECT_DIR$/com-letian-service/com-letian-service-imp-01/pom.xml" />
         <option value="$PROJECT_DIR$/com-letian-service/com-letian-service-imp-02/pom.xml" />
         <option value="$PROJECT_DIR$/com-letian-consume/pom.xml" />
+        <option value="$PROJECT_DIR$/com-letian-service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/com-letian-config/pom.xml" />
+        <option value="$PROJECT_DIR$/com-letian-config/com-letian-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/com-letian-config/com-letian-config-client/pom.xml" />
       </list>
     </option>
   </component>

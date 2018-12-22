@@ -1,0 +1,45 @@
+server:
+  port: 8764
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      profile: dev
+     # uri: http://localhost:8763/ # 实际的url，不是高可用
+      discovery:
+        enabled: true
+        #读取配置文件不再写ip地址，而是注册中心的服务名，这时如果配置服务部署多份，通过负载均衡，从而高可用。
+        serviceId: config-server
+    bus:
+      #标志表示总线已启用。
+      enabled: true
+      #打开acks跟踪的标志（默认关闭）
+      trace:
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: root
+    password: 123456
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      #修改访问路径  2.0之前默认是/   2.0默认是 /actuator  可以通过这个属性值修改
+      #base-path: /actuator
+      exposure:
+        #include: bus-refresh
+        include: '*'
+  server:
+    port: 9001

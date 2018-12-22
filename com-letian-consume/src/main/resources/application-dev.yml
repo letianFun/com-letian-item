@@ -7,6 +7,18 @@ server:
 spring:
   application:
     name: service-feign
+
+#熔断
 feign:
   hystrix:
     enabled: true
+
+#路由转发
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: service-ribbon
+    api-b:
+      path: /api-b/**
+      serviceId: service-feign

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-letian-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-letian-config/com-letian-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-letian-config/com-letian-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-letian-consume" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-letian-register" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-letian-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-letian-service-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-letian-service/com-letian-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-letian-service/com-letian-service-imp-01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-letian-service/com-letian-service-imp-02" charset="UTF-8" />

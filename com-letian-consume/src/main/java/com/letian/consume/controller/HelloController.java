@@ -21,13 +21,18 @@ public class HelloController {
     private UserSOA userSOA;
 
 
+    @GetMapping("test")
+    public String test(){
+        return  "test";
+    }
+
     @GetMapping("/hi")
     public String hi(@RequestParam String name){
-        return helloService.hiService( name );
+        return helloService.hiService( name ) + "（rest+ribbon）(Finchley版本)";
     }
 
     @GetMapping("/getUser")
-    public UserDTO getUser(String name){
-        return userSOA.getUser(name);
+    public String getUser(String name){
+        return userSOA.getUser(name).toString()  + "";
     }
 }

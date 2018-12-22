@@ -5,6 +5,7 @@ import com.letian.consume.service.dto.UserDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * @ Description：
@@ -15,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @FeignClient(value = "com-letian-user",fallback = ErrorDTO.class)
 public interface UserSOA {
 
-    @RequestMapping(method = RequestMethod.POST,value = "/service/user/getUser")
-    UserDTO getUser(String name);
+    @RequestMapping(method = RequestMethod.GET,value = "/service/user/getUser")
+    String getUser(@RequestParam("name") String name);
 
 
 }

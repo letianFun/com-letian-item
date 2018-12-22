@@ -37,4 +37,13 @@ public class UserDTO {
     public void setMan(Boolean man) {
         isMan = man;
     }
+
+    @Override
+    public String toString() {
+        return "UserDTO{" +
+                "name='" + name + '\'' +
+                ", aga=" + aga +
+                ", isMan=" + isMan +
+                '}';
+    }
 }

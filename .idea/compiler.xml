@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="com-letian-config-client" />
+        <module name="com-letian-config-server" />
         <module name="com-letian-consume" />
         <module name="com-letian-register" />
         <module name="com-letian-service-api" />
         <module name="com-letian-service-imp-01" />
         <module name="com-letian-service-imp-02" />
-        <module name="service-imp-02" />
-        <module name="service-impl-01" />
+        <module name="com-letian-service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com-letian-config" target="1.5" />
+      <module name="com-letian-config-client" target="1.8" />
+      <module name="com-letian-config-server" target="1.8" />
       <module name="com-letian-consume" target="1.8" />
       <module name="com-letian-item" target="1.5" />
       <module name="com-letian-register" target="1.8" />
@@ -23,9 +27,8 @@
       <module name="com-letian-service-api" target="1.8" />
       <module name="com-letian-service-imp-01" target="1.8" />
       <module name="com-letian-service-imp-02" target="1.8" />
+      <module name="com-letian-service-zuul" target="1.8" />
       <module name="register" target="1.8" />
-      <module name="service-imp-02" target="1.8" />
-      <module name="service-impl-01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
